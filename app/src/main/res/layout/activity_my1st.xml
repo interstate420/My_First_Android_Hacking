@@ -11,6 +11,24 @@
     <TextView
         android:text="@string/hello_world"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:typeface="serif"
+        android:textStyle="bold|italic"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:clickable="true" />
 
 </RelativeLayout>
